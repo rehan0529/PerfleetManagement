@@ -1,0 +1,28 @@
+User Story :
+As a user, I should be able to login.
+
+Acceptance Criteria:
+
+1- All users can log in with valid credentials (We have 3 types of users: sales manager, store manager, truck driver).
+Driver should land on the "Quick Launchpad" page after successful login
+Sales Manager/ Store Manager should land on the "Dashboard" page after successful login
+
+2- The system shouldn't allow users to access the application without providing credentials
+(for example, copy the url after log in, then log out, paste the same url to browser and try to skip authentication step)
+
+3- Warning Messages:
+"Invalid username or password." message should be displayed for invalid credentials
+"Please fill out this field." message should be displayed for any empty field
+
+4- Users should see their password in bullet signs while typing
+
+5- "Forgot Password" menu
+User lands on the ‘Forgot Password’ page after clicking on the "Forgot your password?" link
+Users can change their password with the username after clicking on "Forgot your password?" link
+
+6- User can see "Remember me on this computer" link on the login page and it should be clickable
+
+7- User can use "Enter" key from their keyboard on the login page
+(Users click on "Username" input box, hit "Enter" button, then cursor appears on "Password" input box, hit "Enter" again, "Login" button gets clicked)
+
+8- All users can see their own usernames in profile menu, after successful login
